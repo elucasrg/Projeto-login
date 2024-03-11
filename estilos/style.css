@@ -57,3 +57,6 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+section#login > div#formulario > p {
+    text-align: justify;
+}
