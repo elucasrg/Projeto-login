@@ -59,6 +59,7 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    
 }
 section#login > div#formulario > p {
     text-align: justify;
@@ -73,7 +74,40 @@ div#formulario > h1 {
 div.campo{
     margin: 10px;
 }
-div.botao {
-    text-align: center;
-    margin: 10px;
+input[type="submit"] {
+    display: block;
+
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #fddcf9;
+    color: #533E61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+input[type="submit"]:hover{
+    background-color: #f178e5;
+}
+input[type="url"] {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #5876c3e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+input[type="url"]:hover{
+    background-color: #094cf5;
+}
+form > div.campo {
+    background-color: #fddcf9;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
