@@ -62,4 +62,18 @@ section#login > div#formulario {
 }
 section#login > div#formulario > p {
     text-align: justify;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.campo{
+    margin: 10px;
+}
+div.botao {
+    text-align: center;
+    margin: 10px;
 }
